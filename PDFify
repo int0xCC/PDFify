@@ -1,0 +1,9 @@
+#The files should be in python directory
+#All the docx in folder name below will be conveted to pdf
+
+from docx2pdf import convert 
+
+#The Folder name should be defined here
+#"docs"is the folder name here
+
+convert("docs\")
